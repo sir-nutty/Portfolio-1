@@ -8,4 +8,4 @@ This project was made to create a portfolio to display my recent projects, skill
 - Able to directly contact me via email from the site & download latest resumes.
 
 ## References
-Mailing is provided by [PostMail] (https://postmail.invotes.com/).
+Mailing is provided by [PostMail] (https://postmail.invotes.com).
