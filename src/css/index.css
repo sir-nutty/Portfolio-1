@@ -32,6 +32,14 @@
     var(--color4) 50%,
     var(--color5) 75%
   );
+  --gradient-anim: linear-gradient(
+    45deg,
+    var(--color3),
+    var(--color4),
+    rgb(124, 0, 226),
+    var(--color4),
+    var(--color7)
+  );
   --gradient-color: var(--color3);
   --gradient-text: var(--color8);
 
@@ -250,7 +258,7 @@ img {
 .home {
   background: var(--gradient-color);
   background: var(--gradient-2);
-  background: var(--gradient-1);
+  background: var(--gradient-anim);
   height: calc(100vh - 4rem);
   max-width: initial;
   column-gap: initial;
@@ -258,6 +266,18 @@ img {
   border-bottom-left-radius: 150px;
   row-gap: 1rem;
   margin: initial;
+  background-size: 400% 400%;
+  animation: gradient 15s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
 }
 
 .home_data span {
@@ -425,7 +445,9 @@ img {
   border-radius: 30px;
   background: var(--gradient-color);
   background: var(--gradient-2);
-  background: var(--gradient-1);
+  background: var(--gradient-anim);
+  background-size: 400% 400%;
+  animation: gradient 15s ease-in-out infinite;
   margin-right: auto;
   margin-left: auto;
   padding: 2rem 0rem;
@@ -508,7 +530,9 @@ img {
 .project_container {
   background: var(--gradient-color);
   background: var(--gradient-2);
-  background: var(--gradient-1);
+  background: var(--gradient-anim);
+  background-size: 400% 400%;
+  animation: gradient 15s ease-in-out infinite;
   padding: 1rem 0.5rem;
   border-radius: 0.5rem;
   box-shadow: 0px 4px 25px rgb(14 36 49 / 15%);
@@ -673,7 +697,9 @@ img {
 .contact {
   background: var(--gradient-color);
   background: var(--gradient-2);
-  background: var(--gradient-1);
+  background: var(--gradient-anim);
+  background-size: 400% 400%;
+  animation: gradient 15s ease-in-out infinite;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   min-height: 600px;
