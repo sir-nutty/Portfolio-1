@@ -1,0 +1,26 @@
+[
+  {
+    "link": "Home",
+    "active": true
+  },
+  {
+    "link": "About",
+    "active": false
+  },
+  {
+    "link": "Experience",
+    "active": false
+  },
+  {
+    "link": "Skills",
+    "active": false
+  },
+  {
+    "link": "Projects",
+    "active": false
+  },
+  {
+    "link": "Contact",
+    "active": false
+  }
+]

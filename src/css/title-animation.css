@@ -1,0 +1,55 @@
+/*===== HOME TITLE =====*/
+
+.home_title .title-1 {
+  animation: fade-in 2s ease-out;
+}
+
+.home_title .title-2 {
+  position: relative;
+  opacity: 0;
+  animation: fade-in-left 1s ease-in-out 0.5s forwards;
+}
+
+.home_title .title-3 {
+  position: relative;
+  opacity: 0;
+  animation: fade-in-below 0.8s ease-out 3s forwards;
+}
+
+.home_download {
+  animation: fade-in 2.5s ease-out;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 100;
+  }
+
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    right: 30px;
+  }
+
+  100% {
+    opacity: 100;
+    right: 0px;
+  }
+}
+
+@keyframes fade-in-below {
+  0% {
+    opacity: 0;
+    top: 50px;
+  }
+
+  100% {
+    opacity: 100;
+    top: 0px;
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "company": "Credit Suisse",
+    "date": "October 2013 - July 2020",
+    "logo": "images/work/creditsuisse.png",
+    "job_title": "Application Support",
+    "responsibilities": [
+      "Investigated & worked with development team to resolve various application errors and followed to resolution in a timely matter.",
+      "Implemented releases to UI & services to resolve user and application issues.",
+      "Handled ad hoc requests from traders, upstream and downstream technical teams, and external vendors.",
+      "Setup, configured, and maintained monitoring for multiple application services, logs, and infrastructure through Geneos and Novell Operations Center used by the entire support team."
+    ]
+  },
+  {
+    "company": "FDM Group",
+    "date": "January 2013 - September 2013",
+    "logo": "images/work/fdmgroup.png",
+    "job_title": "Application Support & Java Developer Trainee",
+    "responsibilities": [
+      "Studied fundamental features and concepts of object oriented programming.",
+      "Developed applications following Test Driven Development.",
+      "Committed and maintained current and prior work using SVN.",
+      "Became certified in ITIL Foundation."
+    ]
+  },
+  {
+    "company": "Versace",
+    "date": "August 2011 - January 2012",
+    "logo": "images/work/versace.png",
+    "job_title": "Microcomputer Technician Internship",
+    "responsibilities": [
+      "Provided troubleshooting services and support for hundreds of users within the office, boutique, California, and Texas via phone and Lotus Notes.",
+      "Inspected, updated, and installed software and hardware for 20 to 30 users within the financial office.",
+      "Prepared laptops for employees who were about to work overseas in Italy."
+    ]
+  }
+]

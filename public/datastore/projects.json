@@ -1,0 +1,169 @@
+[
+  {
+    "name": "myChaldea",
+    "link": "http://mychaldea.com/",
+    "code_link": "",
+    "description": "Web companion application for the mobile game Fate/GO.",
+    "tech": [
+      {
+        "name": "HTML5",
+        "icon": "bxl-html5"
+      },
+      {
+        "name": "CSS3",
+        "icon": "bxl-css3"
+      },
+      {
+        "name": "Javascript",
+        "icon": "bxl-javascript"
+      },
+      {
+        "name": "React",
+        "icon": "bxl-react"
+      },
+      {
+        "name": "MySQL",
+        "icon": ""
+      },
+      {
+        "name": "PL/SQL",
+        "icon": ""
+      },
+      {
+        "name": "Java",
+        "icon": ""
+      },
+      {
+        "name": "Spring-Boot",
+        "icon": "bxl-spring-boot"
+      },
+      {
+        "name": "Firebase",
+        "icon": "bxl-firebase"
+      },
+      {
+        "name": "Google Cloud",
+        "icon": "bxl-google-cloud"
+      }
+    ],
+    "features": [
+      "Add/edit/remove servants on your account.",
+      "Prioritize and maintain materials based upon quantity and servant skill/ascension requirements.",
+      "Application will prioritize events based upon your material priority and servant NP priority."
+    ],
+    "images": [
+      "images/projects/myChaldea/site1.png",
+      "images/projects/myChaldea/site2.png",
+      "images/projects/myChaldea/site3.png",
+      "images/projects/myChaldea/site4.png",
+      "images/projects/myChaldea/site5.png",
+      "images/projects/myChaldea/site6.png"
+    ]
+  },
+  {
+    "name": "Portfolio",
+    "link": "#top",
+    "code_link": "",
+    "description": "Portfolio to display my projects, skills, and previous work experience for front end development.",
+    "tech": [
+      {
+        "name": "HTML5",
+        "icon": "bxl-html5"
+      },
+      {
+        "name": "CSS3",
+        "icon": "bxl-css3"
+      },
+      {
+        "name": "Javascript",
+        "icon": "bxl-javascript"
+      },
+      {
+        "name": "React",
+        "icon": "bxl-react"
+      },
+      {
+        "name": "Amazon Web Services",
+        "icon": "bxl-amazon"
+      }
+    ],
+    "features": [
+      "Showcases projects, skills, and work experience from local json files.",
+      "Direct contact via email.",
+      "Download latest resume."
+    ],
+    "images": ["images/projects/portfolio1/site1.png"]
+  },
+  {
+    "name": "Testing",
+    "link": "#top",
+    "code_link": "#top",
+    "description": "Portfolio to display my projects, skills, and previous work experience for front end development.",
+    "tech": [
+      {
+        "name": "HTML5",
+        "icon": "bxl-html5"
+      },
+      {
+        "name": "CSS3",
+        "icon": "bxl-css3"
+      },
+      {
+        "name": "Javascript",
+        "icon": "bxl-javascript"
+      },
+      {
+        "name": "React",
+        "icon": "bxl-react"
+      },
+      {
+        "name": "Amazon Web Services",
+        "icon": "bxl-amazon"
+      }
+    ],
+    "features": [
+      "Showcases projects, skills, and work experience from local json files.",
+      "Direct contact via email.",
+      "Download latest resume."
+    ],
+    "images": ["images/projects/test/site1.png"]
+  },
+  {
+    "name": "Game Of Thrones Houses",
+    "link": "#top",
+    "code_link": "#top",
+    "description": "Portfolio to display my projects, skills, and previous work experience for front end development.",
+    "tech": [
+      {
+        "name": "HTML5",
+        "icon": "bxl-html5"
+      },
+      {
+        "name": "CSS3",
+        "icon": "bxl-css3"
+      },
+      {
+        "name": "Javascript",
+        "icon": "bxl-javascript"
+      },
+      {
+        "name": "React",
+        "icon": "bxl-react"
+      },
+      {
+        "name": "Amazon Web Services",
+        "icon": "bxl-amazon"
+      }
+    ],
+    "features": [
+      "Showcases projects, skills, and work experience from local json files.",
+      "Direct contact via email.",
+      "Download latest resume."
+    ],
+    "images": [
+      "images/projects/test/site2.png",
+      "images/projects/test/site3.png",
+      "images/projects/test/site4.png"
+    ]
+  }
+]

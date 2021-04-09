@@ -1,0 +1,26 @@
+[
+  {
+    "name": "HTML5",
+    "icon": "bxl-html5"
+  },
+  {
+    "name": "CSS3",
+    "icon": "bxl-css3"
+  },
+  {
+    "name": "Javascript",
+    "icon": "bxl-javascript"
+  },
+  {
+    "name": "React",
+    "icon": "bxl-react"
+  },
+  {
+    "name": "SQL",
+    "icon": ""
+  },
+  {
+    "name": "PL/SQL",
+    "icon": ""
+  }
+]

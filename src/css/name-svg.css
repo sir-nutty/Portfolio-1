@@ -1,0 +1,37 @@
+.name-svg {
+  width: 220px;
+  animation: fill 0.5s ease forwards 3s;
+}
+
+.name-svg path {
+  stroke: rgb(220, 220, 255);
+  stroke-width: 1.5;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: rgb(50, 50, 90);
+  }
+}
+/*===== MEDIA QUERIES =====*/
+@media screen and (max-width: 500px) and (max-height: 600px) {
+  /*===== SMALL MOBILE =====*/
+  .name-svg {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .name-svg {
+    width: 300px;
+  }
+}
