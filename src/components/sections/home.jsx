@@ -7,6 +7,7 @@ import "../../css/title-animation.css";
 export default class Home extends Component {
   state = {
     socials: [],
+    resume: { path: null, file: null },
   };
 
   componentDidMount() {
@@ -15,11 +16,17 @@ export default class Home extends Component {
       .then((result) => {
         this.setState({ socials: result });
       });
+
+    fetch("datastore/resume.json")
+      .then((res) => res.json())
+      .then((result) => {
+        this.setState({ resume: result });
+      });
   }
 
   render() {
     const { id } = this.props;
-    const { socials } = this.state;
+    const { socials, resume } = this.state;
 
     return (
       <section className="home grid" id={id}>
@@ -33,7 +40,7 @@ export default class Home extends Component {
           </h1>
 
           <div className="home_download">
-            <a className="button" href="files/resume.txt" download="resume.txt">
+            <a className="button" href={resume.path} download={resume.file}>
               Download Resume
             </a>
           </div>
