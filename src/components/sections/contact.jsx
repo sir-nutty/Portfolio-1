@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import PostMail from "../../datastore/postMail.json";
-
 export default class Contact extends Component {
   state = {
     emailInfo: null,
@@ -99,8 +97,10 @@ export default class Contact extends Component {
       }
     };
 
+    const access_token = process.env.REACT_APP_POSTMAIL_ACCESS_TOKEN;
+
     const data = {
-      access_token: PostMail.access_token,
+      access_token: access_token,
       subject: subject,
       text: message,
     };
