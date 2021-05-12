@@ -591,6 +591,10 @@ img {
   grid-row: 1;
 }
 
+.project_description p {
+  white-space: pre-wrap;
+}
+
 .project_techStack {
   grid-row: 4;
   min-width: 150px;
