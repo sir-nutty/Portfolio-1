@@ -2,8 +2,8 @@
   {
     "name": "myChaldea",
     "link": "http://mychaldea.com/",
-    "code_link": "",
-    "description": "Web companion application for the mobile game Fate/GO.",
+	"code_link": "",
+    "description": "Full stack application for the mobile game Fate/GO. This app allows you to add your favorite characters from the game to your account, prioritize skill levels for each character, tracks how many materials you require for each priority, and also tracks upcoming events where you can gather more characters and materials.",
     "tech": [
       {
         "name": "HTML5",
@@ -47,9 +47,11 @@
       }
     ],
     "features": [
-      "Add/edit/remove servants on your account.",
-      "Prioritize and maintain materials based upon quantity and servant skill/ascension requirements.",
-      "Application will prioritize events based upon your material priority and servant NP priority."
+      "User management, login, registration, etc.",
+      "Database which stores and maintains user and game data.",
+      "API that handles requests from the URL to query the database and return a JSON.",
+	  "Performs complex logic that ascertains priority based upon selected skills of each character tied to an account.",
+	  "Customizable character icons and backgrounds which are saved to each account."
     ],
     "images": [
       "images/projects/myChaldea/site1.png",
@@ -62,8 +64,8 @@
   },
   {
     "name": "Portfolio",
-    "link": "#top",
-    "code_link": "",
+    "link": "http://www.darnell-portfolio.com/",
+	"code_link": "https://github.com/sir-nutty/portfolio-1",
     "description": "Portfolio to display my projects, skills, and previous work experience for front end development.",
     "tech": [
       {
@@ -88,17 +90,17 @@
       }
     ],
     "features": [
-      "Showcases projects, skills, and work experience from local json files.",
-      "Direct contact via email.",
-      "Download latest resume."
+      "The web app uses public JSON files to display update sections (experience, skills, projects, etc) without the need to rebuild & redeploy.",
+      "Ability to directly contact via email.",
+      "Access to download my latest resume."
     ],
     "images": ["images/projects/portfolio1/site1.png"]
   },
   {
-    "name": "Testing",
-    "link": "#top",
-    "code_link": "#top",
-    "description": "Portfolio to display my projects, skills, and previous work experience for front end development.",
+    "name": "D-Weather",
+    "link": "http://www.d-weather.com/",
+	"code_link": "https://github.com/sir-nutty/d-weather",
+    "description": "Displays 7-day weather forecast upon searching a location.",
     "tech": [
       {
         "name": "HTML5",
@@ -119,20 +121,24 @@
       {
         "name": "Amazon Web Services",
         "icon": "bxl-amazon"
+      },
+	  {
+        "name": "WeatherBit API",
+        "icon": ""
       }
     ],
     "features": [
-      "Showcases projects, skills, and work experience from local json files.",
-      "Direct contact via email.",
-      "Download latest resume."
+      "Utilizes a third party API to retrieve weather information.",
+      "Able to convert temperature between Fahrenheit & Celsius.",
+	  "Can select a specific day to view more weather information for that particular day."
     ],
-    "images": ["images/projects/test/site1.png"]
+    "images": ["images/projects/D-Weather/site1.png"]
   },
   {
-    "name": "Game Of Thrones Houses",
-    "link": "#top",
-    "code_link": "#top",
-    "description": "Portfolio to display my projects, skills, and previous work experience for front end development.",
+    "name": "Game of Thrones Houses",
+    "link": "http://www.gameofthroneshouses.com/",
+	"code_link": "https://github.com/sir-nutty/game-of-thrones-houses",
+    "description": "Showcases house & character info on the major houses from the pop series Game of Thrones.",
     "tech": [
       {
         "name": "HTML5",
@@ -153,17 +159,20 @@
       {
         "name": "Amazon Web Services",
         "icon": "bxl-amazon"
+      },
+	  {
+        "name": "An API of Ice And Fire",
+        "icon": ""
       }
     ],
     "features": [
-      "Showcases projects, skills, and work experience from local json files.",
-      "Direct contact via email.",
-      "Download latest resume."
+      "Retrieves house & character info from a third party API.",
+      "Design changes themes upon house selection."
     ],
     "images": [
-      "images/projects/test/site2.png",
-      "images/projects/test/site3.png",
-      "images/projects/test/site4.png"
-    ]
+		"images/projects/Game of Thrones Houses/site1.png",
+		"images/projects/Game of Thrones Houses/site2.png",
+		"images/projects/Game of Thrones Houses/site3.png"
+		]
   }
 ]
