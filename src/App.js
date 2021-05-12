@@ -17,9 +17,9 @@ function App() {
       <main>
         <Home id={Links[0].link} />
         <About id={Links[1].link} />
-        <Experience id={Links[2].link} />
+        <Projects id={Links[2].link} />
         <Skills id={Links[3].link} />
-        <Projects id={Links[4].link} />
+        <Experience id={Links[4].link} />
         <Contact id={Links[5].link} />
       </main>
       <Footer />

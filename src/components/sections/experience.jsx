@@ -18,7 +18,7 @@ export default class Experience extends Component {
     const { experience } = this.state;
 
     return (
-      <section className="experience section" id={id}>
+      <section className="experience grey-padding section" id={id}>
         <h2 className="section-title">Experience</h2>
 
         <div className="experience_container grid">

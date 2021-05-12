@@ -158,8 +158,8 @@ img {
 }
 
 .section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .section-title {
@@ -181,6 +181,13 @@ img {
   margin: auto;
   top: 2rem;
   background-color: var(--color3);
+}
+
+.grey-padding {
+  background: var(--color9);
+  border-radius: 50px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
 }
 
 .button {
@@ -315,9 +322,12 @@ img {
 }
 
 /* ===== ABOUT =====*/
-.about {
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+
+.about-wrapper {
+  width: calc(100% - 2rem);
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about_container {
@@ -342,7 +352,8 @@ img {
   text-align: justify;
 }
 
-/* ===== EXPERIENCE & SKILLS =====*/
+/* ===== ABOUT & EXPERIENCE & SKILLS =====*/
+.about,
 .experience,
 .skills {
   width: calc(100% - 3rem);
@@ -708,6 +719,9 @@ img {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   min-height: 600px;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  margin-bottom: initial !important;
 }
 
 .contact .section-title {
@@ -906,8 +920,8 @@ img {
   }
 
   .section {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
   }
 
   .section-title {
