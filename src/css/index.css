@@ -323,6 +323,10 @@ img {
 
 /* ===== ABOUT =====*/
 
+.about {
+  max-width: 1280px;
+}
+
 .about-wrapper {
   width: calc(100% - 2rem);
   max-width: 1024px;
@@ -447,9 +451,6 @@ img {
 }
 
 /* ===== SKILLS =====*/
-.skills {
-  padding-bottom: 1.5rem;
-}
 
 .skills_wrapper {
   width: calc(100% - 2rem);
@@ -1028,9 +1029,6 @@ img {
   }
 
   /*===== SKILLS =====*/
-  .skills {
-    padding-bottom: 1.5rem;
-  }
 
   .skills_container {
     grid-template-columns: repeat(2, 1fr);
