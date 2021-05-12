@@ -30,6 +30,14 @@ export default function Project(props) {
         <div className="project_content">
           <div className="project_description">
             <p>{description}</p>
+            {code ? null : (
+              <p className="inactive_message">
+                <br />
+                <span>NOTE:</span> Source code for this project is restricted.
+                Please use the <a href={"#Contact"}>contact form</a> to request
+                access to view. Thank you.
+              </p>
+            )}
           </div>
 
           <div className="project_techStack">

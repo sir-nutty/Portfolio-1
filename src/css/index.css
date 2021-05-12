@@ -575,12 +575,7 @@ img {
 }
 
 .project_header .project_header_buttons .inactive {
-  background-color: var(--disabled-color);
-}
-
-.project_header .project_header_buttons .inactive:hover {
-  cursor: default;
-  box-shadow: initial;
+  width: 150px;
 }
 
 .project_header .button {
@@ -604,6 +599,17 @@ img {
 
 .project_description p {
   white-space: pre-wrap;
+}
+
+.project_description .inactive_message span {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.project_description .inactive_message a {
+  color: -webkit-link;
+  text-decoration: underline;
 }
 
 .project_techStack {
@@ -1092,6 +1098,10 @@ img {
   .project_header .button {
     width: 151px;
     padding: 0.5rem 2rem;
+  }
+
+  .project_header .project_header_buttons .inactive {
+    width: 180px;
   }
 
   .project_description {
