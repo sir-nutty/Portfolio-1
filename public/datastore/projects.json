@@ -98,7 +98,7 @@
   },
   {
     "name": "D-Weather",
-    "link": "http://www.d-weather.com/",
+    "link": "https://www.d-weather.com/",
     "code_link": "https://github.com/sir-nutty/d-weather",
     "description": "Displays 7-day weather forecast upon searching a location.",
     "tech": [
