@@ -64,7 +64,7 @@
   },
   {
     "name": "Portfolio",
-    "link": "http://www.darnell-portfolio.com/",
+    "link": "https://www.darnell-portfolio.com/",
     "code_link": "https://github.com/sir-nutty/portfolio-1",
     "description": "Portfolio to display my projects, skills, and previous work experience for front end development.",
     "tech": [
