@@ -2,7 +2,7 @@
   {
     "name": "myChaldea",
     "link": "https://mychaldea.com/",
-    "code_link": "",
+    "code_link": "https://github.com/sir-nutty/myChaldea-UI",
     "description": "Full stack application for the mobile game Fate/GO. This app allows you to add your favorite characters from the game to your account, prioritize skill levels for each character, tracks how many materials you require for each priority, and also tracks upcoming events where you can gather more characters and materials.\n\nGuest Account\nUser:\t\tguest@guest.com\nPassword:\tpassword123",
     "tech": [
       {
