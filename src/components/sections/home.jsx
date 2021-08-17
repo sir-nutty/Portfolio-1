@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 
 import Name from "../svg/name";
+import Socials from "./item/socials";
 
 import "../../css/title-animation.css";
 
 export default class Home extends Component {
   state = {
-    socials: [],
+    socials: null,
     resume: { path: null, file: null },
   };
 
@@ -46,21 +47,7 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className="home_social">
-          {socials.map((social, index) => (
-            <a
-              key={index}
-              href={social.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={
-                "home_social-icon " + social.name.replace(" ", "").toLowerCase()
-              }
-            >
-              <i className={"bx " + social.icon}></i>
-            </a>
-          ))}
-        </div>
+        <Socials socials={socials} />
       </section>
     );
   }
