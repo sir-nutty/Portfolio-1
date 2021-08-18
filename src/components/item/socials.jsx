@@ -1,7 +1,9 @@
 import React from "react";
 
-export default function Socials(props) {
-  const { socials } = props;
+import useSocialsAPI from "../hooks/useSocialsAPI";
+
+export default function Socials() {
+  const { socials } = useSocialsAPI();
 
   return (
     <div className="socials">

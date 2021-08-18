@@ -6,18 +6,10 @@ import Links from "../../datastore/links.json";
 
 export default class Header extends Component {
   state = {
-    socials: null,
     links: Links,
   };
 
   componentDidMount() {
-    // Retrieve Socials
-    fetch("datastore/socials.json")
-      .then((res) => res.json())
-      .then((result) => {
-        this.setState({ socials: result });
-      });
-
     // Configure toggle for mobile
     const toggle = document.getElementById("nav-toggle");
     const navMenu = document.getElementById("nav-menu");
@@ -36,7 +28,7 @@ export default class Header extends Component {
   }
 
   render() {
-    const { socials, links } = this.state;
+    const { links } = this.state;
 
     return (
       <header className="header-lg">
@@ -63,7 +55,7 @@ export default class Header extends Component {
             </ul>
           </div>
 
-          <Socials socials={socials} />
+          <Socials />
 
           <div className="nav_toggle" id="nav-toggle">
             <i className="bx bx-menu" />

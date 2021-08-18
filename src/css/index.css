@@ -51,9 +51,9 @@
 :root {
   --body-font: "Poppins", sans-serif;
 
-  --big-font-size: 2.5rem;
+  --big-font-size: 3.8rem;
   --h2-font-size: 1.25rem;
-  --icon1-font-size: 1.5rem;
+  --icon1-font-size: 1.05rem;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.8rem;
 }
@@ -270,7 +270,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 150px;
+  width: 100px;
 }
 
 .social-icon {
@@ -282,12 +282,19 @@ img {
   color: var(--hover-color1);
 }
 
+/*===== INTRODUCTION =====*/
+.intro_title {
+  color: var(--color1);
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-5);
+}
+
 /*===== HOME =====*/
 .home {
   background: var(--gradient-color);
   background: var(--gradient-2);
   background: var(--gradient-anim);
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 8rem);
   max-width: initial;
   column-gap: initial;
   width: 100%;
@@ -295,7 +302,7 @@ img {
   row-gap: 1rem;
   margin: initial;
   background-size: 400% 400%;
-  animation: gradient 15s ease-in-out infinite;
+  animation: gradient 13s ease-in-out infinite;
 }
 
 @keyframes gradient {
@@ -308,20 +315,14 @@ img {
   }
 }
 
-.home_data span {
+.home_container span {
   margin-right: 0.75rem;
 }
 
-.home_data {
+.home_container {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
   align-self: center;
-}
-
-.home_title {
-  color: var(--color1);
-  font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
 }
 
 /* ===== ABOUT =====*/
@@ -807,12 +808,12 @@ img {
   }
 
   /*===== HOME =====*/
-  .home_data {
+  .home_container {
     margin: initial;
     text-align: center;
   }
 
-  .home_data span {
+  .home_container span {
     margin: initial;
   }
 
@@ -845,7 +846,7 @@ img {
 @media screen and (max-width: 500px) and (max-height: 600px) {
   /*===== SMALL MOBILE =====*/
   :root {
-    --big-font-size: 2rem;
+    --big-font-size: 3.5rem;
     --h2-font-size: 1.5rem;
     --normal-font-size: 0.8rem;
   }
@@ -854,7 +855,7 @@ img {
 @media screen and (min-width: 600px) {
   /*===== LARGE MOBILE =====*/
   :root {
-    --big-font-size: 4rem;
+    --big-font-size: 4.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
   }
@@ -918,9 +919,10 @@ img {
 @media screen and (min-width: 900px) {
   /*===== TABLET =====*/
   :root {
-    --big-font-size: 4.5rem;
+    --big-font-size: 6rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
+    --icon1-font-size: 1.5rem;
   }
 
   /*===== LAYOUT =====*/
@@ -957,12 +959,17 @@ img {
     display: none;
   }
 
+  /*===== SOCIALS =====*/
+  .socials {
+    width: 150px;
+  }
+
   /*===== HOME =====*/
   .home {
     border-bottom-left-radius: 300px;
   }
 
-  .home_data {
+  .home_container {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
