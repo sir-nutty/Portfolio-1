@@ -4,7 +4,7 @@ export default function Socials(props) {
   const { socials } = props;
 
   return (
-    <div className="home_social">
+    <div className="socials">
       {socials ? (
         socials.map((social, index) => (
           <a
@@ -13,7 +13,7 @@ export default function Socials(props) {
             target="_blank"
             rel="noopener noreferrer"
             className={
-              "home_social-icon " + social.name.replace(" ", "").toLowerCase()
+              "social-icon " + social.name.replace(" ", "").toLowerCase()
             }
           >
             <i className={"bx " + social.icon}></i>

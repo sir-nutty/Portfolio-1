@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Name from "../svg/name";
-import Socials from "./item/socials";
 
 import "../../css/title-animation.css";
 
@@ -12,12 +11,6 @@ export default class Home extends Component {
   };
 
   componentDidMount() {
-    fetch("datastore/socials.json")
-      .then((res) => res.json())
-      .then((result) => {
-        this.setState({ socials: result });
-      });
-
     fetch("datastore/resume.json")
       .then((res) => res.json())
       .then((result) => {
@@ -27,7 +20,7 @@ export default class Home extends Component {
 
   render() {
     const { id } = this.props;
-    const { socials, resume } = this.state;
+    const { resume } = this.state;
 
     return (
       <section className="home grid" id={id}>
@@ -46,8 +39,6 @@ export default class Home extends Component {
             </a>
           </div>
         </div>
-
-        <Socials socials={socials} />
       </section>
     );
   }

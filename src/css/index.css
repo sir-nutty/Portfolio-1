@@ -43,6 +43,7 @@
   --gradient-color: var(--color3);
   --gradient-text: var(--color8);
 
+  --hover-color1: var(--color4);
   --disabled-color: grey;
 }
 
@@ -52,6 +53,7 @@
 
   --big-font-size: 2.5rem;
   --h2-font-size: 1.25rem;
+  --icon1-font-size: 1.5rem;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.8rem;
 }
@@ -215,6 +217,7 @@ img {
 /*===== NAV =====*/
 .nav {
   height: var(--header-height);
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -249,7 +252,7 @@ img {
 }
 
 .nav_logo:hover {
-  color: var(--color5);
+  color: var(--hover-color1);
 }
 
 .nav_toggle {
@@ -260,6 +263,23 @@ img {
 
 .show {
   right: 0 !important;
+}
+
+/*===== SOCIALS =====*/
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 150px;
+}
+
+.social-icon {
+  font-size: var(--icon1-font-size);
+  color: var(--gradient-text);
+}
+
+.social-icon:hover {
+  color: var(--hover-color1);
 }
 
 /*===== HOME =====*/
@@ -302,23 +322,6 @@ img {
   color: var(--color1);
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
-}
-
-.home_social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.home_social-icon {
-  width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: black;
-}
-
-.home_social-icon:hover {
-  color: var(--gradient-text);
 }
 
 /* ===== ABOUT =====*/
@@ -875,8 +878,8 @@ img {
     padding: 0.75rem 2.5rem;
   }
 
-  /*===== LAYOUT =====*/
-  .home_social {
+  /*===== SOCIALS =====*/
+  .socials {
     align-self: center;
   }
 
@@ -895,7 +898,7 @@ img {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .nav_menu {
     position: fixed;
     top: var(--header-height);
@@ -912,7 +915,7 @@ img {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 900px) {
   /*===== TABLET =====*/
   :root {
     --big-font-size: 4.5rem;
@@ -960,23 +963,10 @@ img {
   }
 
   .home_data {
-    align-self: flex-end;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     width: calc(100% - 3rem);
-  }
-
-  .home_social {
-    padding-bottom: 2.5rem;
-    justify-content: space-around;
-    max-width: 1024px;
-    width: calc(100% - 10rem);
-    margin-left: auto;
-  }
-
-  .home_social-icon {
-    margin-bottom: 0;
   }
 
   /*===== ABOUT =====*/
@@ -1064,10 +1054,8 @@ img {
     margin-right: auto;
   }
 
-  /*===== PROJECTS =====*/
-  .home_social {
-    margin-right: auto;
-    width: calc(100% - 4rem);
+  /*===== SOCIALS =====*/
+  .socials {
     align-self: center;
   }
 
