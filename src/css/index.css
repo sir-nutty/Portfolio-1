@@ -51,9 +51,9 @@
 :root {
   --body-font: "Poppins", sans-serif;
 
-  --big-font-size: 2.5rem;
+  --big-font-size: 3.8rem;
   --h2-font-size: 1.25rem;
-  --icon1-font-size: 1.5rem;
+  --icon1-font-size: 1.05rem;
   --normal-font-size: 0.938rem;
   --small-font-size: 0.8rem;
 }
@@ -270,7 +270,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 150px;
+  width: 100px;
 }
 
 .social-icon {
@@ -294,7 +294,7 @@ img {
   background: var(--gradient-color);
   background: var(--gradient-2);
   background: var(--gradient-anim);
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 8rem);
   max-width: initial;
   column-gap: initial;
   width: 100%;
@@ -846,7 +846,7 @@ img {
 @media screen and (max-width: 500px) and (max-height: 600px) {
   /*===== SMALL MOBILE =====*/
   :root {
-    --big-font-size: 2rem;
+    --big-font-size: 3.5rem;
     --h2-font-size: 1.5rem;
     --normal-font-size: 0.8rem;
   }
@@ -855,7 +855,7 @@ img {
 @media screen and (min-width: 600px) {
   /*===== LARGE MOBILE =====*/
   :root {
-    --big-font-size: 4rem;
+    --big-font-size: 4.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
   }
@@ -919,9 +919,10 @@ img {
 @media screen and (min-width: 900px) {
   /*===== TABLET =====*/
   :root {
-    --big-font-size: 4.5rem;
+    --big-font-size: 6rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
+    --icon1-font-size: 1.5rem;
   }
 
   /*===== LAYOUT =====*/
@@ -956,6 +957,11 @@ img {
 
   .nav_toggle {
     display: none;
+  }
+
+  /*===== SOCIALS =====*/
+  .socials {
+    width: 150px;
   }
 
   /*===== HOME =====*/

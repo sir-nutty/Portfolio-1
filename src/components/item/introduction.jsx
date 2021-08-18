@@ -10,7 +10,6 @@ export default function Introduction() {
         <br />
         <span className="title-2">I'm</span>
         <Name />
-        <br /> <span className="title-3">Web Developer</span>
       </h1>
     </div>
   );
