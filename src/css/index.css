@@ -282,6 +282,13 @@ img {
   color: var(--hover-color1);
 }
 
+/*===== INTRODUCTION =====*/
+.intro_title {
+  color: var(--color1);
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-5);
+}
+
 /*===== HOME =====*/
 .home {
   background: var(--gradient-color);
@@ -316,12 +323,6 @@ img {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
   align-self: center;
-}
-
-.home_title {
-  color: var(--color1);
-  font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
 }
 
 /* ===== ABOUT =====*/
