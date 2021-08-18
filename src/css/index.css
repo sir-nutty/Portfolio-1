@@ -302,7 +302,7 @@ img {
   row-gap: 1rem;
   margin: initial;
   background-size: 400% 400%;
-  animation: gradient 15s ease-in-out infinite;
+  animation: gradient 13s ease-in-out infinite;
 }
 
 @keyframes gradient {
