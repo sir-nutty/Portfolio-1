@@ -315,11 +315,11 @@ img {
   }
 }
 
-.home_data span {
+.home_container span {
   margin-right: 0.75rem;
 }
 
-.home_data {
+.home_container {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
   align-self: center;
@@ -808,12 +808,12 @@ img {
   }
 
   /*===== HOME =====*/
-  .home_data {
+  .home_container {
     margin: initial;
     text-align: center;
   }
 
-  .home_data span {
+  .home_container span {
     margin: initial;
   }
 
@@ -963,7 +963,7 @@ img {
     border-bottom-left-radius: 300px;
   }
 
-  .home_data {
+  .home_container {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
